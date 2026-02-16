@@ -1,5 +1,5 @@
 {
-	"name": "G3 Zinc",
+	"name": "Vexiun Zinc",
 	"type": "dark",
 	"colors": {
 		"badge.foreground": "#ffffff",
@@ -200,7 +200,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#00fbff"
+				"foreground": "#68a0fb"
 			}
 		},
 		{
@@ -357,7 +357,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#00fbff"
+				"foreground": "#68a0fb"
 			}
 		},
 		{
@@ -368,7 +368,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#00fbff"
+				"foreground": "#68a0fb"
 			}
 		},
 		{

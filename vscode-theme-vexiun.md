@@ -34,11 +34,11 @@ Paleta e temas de cores do VS Code baseados nas cores do projeto.
 
 ### Vexiun Dark
 
-(Imagem ainda não disponível)
+![Vexiun Dark Theme](./public/vexiun-dark.png)
 
 ### Vexiun Light
 
-(Imagem ainda não disponível)
+![Vexiun Light Theme](./public/vexiun-light.png)
 
 ## Paleta Base
 

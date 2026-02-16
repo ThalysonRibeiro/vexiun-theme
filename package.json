@@ -2,7 +2,7 @@
   "name": "vexiun-theme",
   "displayName": "Vexiun theme",
   "description": "Official Vexiun theme collection. 9 carefully crafted dark & light variants with minimalist design. Perfect for React, TypeScript, and Next.js developers.",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "engines": {
     "vscode": "^1.102.3"
   },
@@ -59,7 +59,7 @@
       },
       {
         "label": "Vexiun Strawberry",
-        "uiTheme": "vs",
+        "uiTheme": "vs-dark",
         "path": "./themes/dark-strawberry-collor-theme.json"
       },
       {

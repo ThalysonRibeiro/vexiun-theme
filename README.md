@@ -34,11 +34,11 @@ This extension provides a collection of custom themes for Visual Studio Code.
 
 ### Vexiun Dark
 
-(Image not available yet)
+![Vexiun Dark Theme](./public/vexiun-dark.png)
 
 ### Vexiun Light
 
-(Image not available yet)
+![Vexiun Light Theme](./public/vexiun-light.png)
 
 ## Installation
 

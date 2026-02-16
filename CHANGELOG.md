@@ -2,19 +2,38 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https.keepachangelog.com/en/1.0.0/),
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.2.2] - 2026-01-19
-
-### Added
-- Added a new theme: Black and White.
-- Added a new theme: White and Black.
+## [0.2.6] - 2026-02-16
 
 ### Changed
-- Changed the theme name to Vexiun Theme.
 
-## [Unreleased]
+- Updated README.md and vscode-theme-vexiun.md with missing theme images.
+- Fixed theme inconsistencies and applied general corrections to themes.
+- Updated documentation and release process examples.
+
+## [0.2.5] - 2026-02-13
+
+### Fixed
+
+- Improved CI pipeline and metadata synchronization.
+
+## [0.2.4] - 2026-02-10
+
+### Fixed
+
+- Improved CI pipeline by using `gh-release` action for more reliable publishing.
+
+## [0.2.3] - 2026-02-05
+
+### Changed
+
+- Rebranded themes from "G3" to "Vexiun".
+- Updated metadata and added LICENSE file.
+- Renamed theme files for better consistency.
+
+## [0.2.2] - 2026-01-19
 
 ## [0.1.1] - 2025-11-05
 
