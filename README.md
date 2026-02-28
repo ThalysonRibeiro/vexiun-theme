@@ -4,33 +4,17 @@ This extension provides a collection of custom themes for Visual Studio Code.
 
 ## Available Themes
 
+### Vexiun Bloom
+
+![Vexiun Bloom Theme](./public/bloom.png)
+
 ### Vexiun Gray
 
 ![Vexiun Gray Theme](./public/gray.png)
 
-### Vexiun Zinc
-
-![Vexiun Zinc Theme](./public/zinc.png)
-
-### Vexiun Purple
-
-![Vexiun Purple Theme](./public/dark-purple.png)
-
 ### Vexiun Sakura
 
 ![Vexiun Sakura Theme](./public/sakura.png)
-
-### Vexiun Strawberry
-
-![Vexiun Strawberry Theme](./public/strawberry.png)
-
-### Vexiun Dark
-
-![Vexiun Dark Theme](./public/vexiun-dark.png)
-
-### Vexiun Light
-
-![Vexiun Light Theme](./public/vexiun-light.png)
 
 ## Installation
 
