@@ -2,7 +2,7 @@
   "name": "vexiun-theme",
   "displayName": "Vexiun theme",
   "description": "Official Vexiun theme collection. Carefully crafted dark & light variants with semantic highlighting optimized for React, TypeScript, and Next.js. Clean. Minimal. Focused.",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.102.3"
   },
@@ -43,34 +43,14 @@
         "path": "./themes/gray-color-theme.json"
       },
       {
-        "label": "Vexiun Zinc",
-        "uiTheme": "vs-dark",
-        "path": "./themes/zinc-color-theme.json"
-      },
-      {
-        "label": "Vexiun Purple",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-purple-collor-theme.json"
-      },
-      {
         "label": "Vexiun Sakura",
         "uiTheme": "vs",
         "path": "./themes/sakura-light-color-theme.json"
       },
       {
-        "label": "Vexiun Strawberry",
+        "label": "Vexiun Bloom",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-strawberry-collor-theme.json"
-      },
-      {
-        "label": "Vexiun Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/vexiun-dark.json"
-      },
-      {
-        "label": "Vexiun Light",
-        "uiTheme": "vs",
-        "path": "./themes/vexiun-light.json"
+        "path": "./themes/dark-bloom-collor-theme.json"
       }
     ]
   }
