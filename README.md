@@ -24,14 +24,6 @@ This extension provides a collection of custom themes for Visual Studio Code.
 
 ![Vexiun Strawberry Theme](./public/strawberry.png)
 
-### Vexiun Mono Dark
-
-![Vexiun Mono Dark Theme](./public/black-end-white.png)
-
-### Vexiun Mono Light
-
-![Vexiun Mono Light Theme](./public/white-and-black.png)
-
 ### Vexiun Dark
 
 ![Vexiun Dark Theme](./public/vexiun-dark.png)

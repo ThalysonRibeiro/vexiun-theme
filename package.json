@@ -1,20 +1,20 @@
 {
   "name": "vexiun-theme",
   "displayName": "Vexiun theme",
-  "description": "Official Vexiun theme collection. 9 carefully crafted dark & light variants with minimalist design. Perfect for React, TypeScript, and Next.js developers.",
-  "version": "0.2.6",
+  "description": "Official Vexiun theme collection. Carefully crafted dark & light variants with semantic highlighting optimized for React, TypeScript, and Next.js. Clean. Minimal. Focused.",
+  "version": "0.3.0",
   "engines": {
     "vscode": "^1.102.3"
   },
   "categories": [
     "Themes"
   ],
-   "icon": "icon.ico",
-    "repository": {
+  "icon": "icon.ico",
+  "repository": {
     "type": "git",
     "url": "https://github.com/ThalysonRibeiro/vexiun-theme.git"
   },
-    "keywords": [
+  "keywords": [
     "vexiun",
     "dark",
     "light",
@@ -28,7 +28,7 @@
     "nextjs",
     "monochrome",
     "sakura"
-],
+  ],
   "publisher": "Rafinha-g3",
   "galleryBanner": {
     "color": "#0a0a0a",
@@ -61,16 +61,6 @@
         "label": "Vexiun Strawberry",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-strawberry-collor-theme.json"
-      },
-      {
-        "label": "Vexiun Mono Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/black-and-white-color-theme.json"
-      },
-      {
-        "label": "Vexiun Mono Light",
-        "uiTheme": "vs",
-        "path": "./themes/white-and-black-color-theme.json"
       },
       {
         "label": "Vexiun Dark",

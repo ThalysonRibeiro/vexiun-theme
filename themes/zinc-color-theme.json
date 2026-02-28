@@ -1,6 +1,7 @@
 {
 	"name": "Vexiun Zinc",
 	"type": "dark",
+	"semanticHighlighting": true,
 	"colors": {
 		"badge.foreground": "#ffffff",
 		"badge.background": "#007acc",
@@ -17,47 +18,50 @@
 		"list.inactiveSelectionIconForeground": "#ffffff",
 		"list.inactiveFocusBackground": "#007acc",
 		"list.errorForeground": "#ff5370",
-		"activityBar.background": "#18181b",
+		"titleBar.activeBackground": "#27272b",
+"titleBar.activeForeground": "#FFFFFF",
+"titleBar.border": "#3e51ff33",
+		"activityBar.background": "#27272b",
 		"activityBar.dropBorder": "#3e3e3e",
 		"activityBar.foreground": "#ffffff",
 		"activityBar.inactiveForeground": "#89ddff",
 		"activityBarBadge.background": "#007acc",
 		"activityBarBadge.foreground": "#ffffff",
 		"activityBar.activeBorder": "#00bfff",
-		"activityBar.activeBackground": "#18181b",
+		"activityBar.activeBackground": "#27272b",
 		"sideBar.background": "#1d1d20",
 		"sideBar.foreground": "#d4d4d4",
 		"sideBarTitle.foreground": "#ffffff",
-		"sideBarSectionHeader.background": "#18181b",
+		"sideBarSectionHeader.background": "#27272b",
 		"sideBarSectionHeader.foreground": "#ffffff",
 		"minimap.errorHighlight": "#ff5370",
 		"minimap.warningHighlight": "#ffcb6b",
-		"minimap.background": "#18181b42",
+		"minimap.background": "#27272b42",
 		"minimap.foregroundOpacity": "#000000c0",
 		"minimapSlider.background": "#007acc81",
 		"minimapSlider.hoverBackground": "#00bfff94",
 		"minimapSlider.activeBackground": "#007acc81",
 		"editorGroup.border": "#00bfff",
 		"editorGroup.dropBackground": "#007acc81",
-		"editorGroupHeader.tabsBackground": "#18181b",
-		"editorGroup.emptyBackground": "#18181b",
+		"editorGroupHeader.tabsBackground": "#27272b",
+		"editorGroup.emptyBackground": "#27272b",
 		"editorGroup.focusedEmptyBorder": "#ffffff",
 		"editorGroup.dropIntoPromptBackground": "#ffffff71",
-		"tab.activeBackground": "#18181b",
-		"tab.unfocusedActiveBackground": "#18181b",
+		"tab.activeBackground": "#27272b",
+		"tab.unfocusedActiveBackground": "#27272b",
 		"tab.activeForeground": "#ffffff",
-		"tab.unfocusedActiveBorder": "#18181b",
-		"tab.unfocusedActiveBorderTop": "#18181b",
-		"tab.lastPinnedBorder": "#18181b41",
-		"tab.inactiveBackground": "#18181b",
-		"tab.unfocusedInactiveBackground": "#18181b",
+		"tab.unfocusedActiveBorder": "#27272b",
+		"tab.unfocusedActiveBorderTop": "#27272b",
+		"tab.lastPinnedBorder": "#27272b41",
+		"tab.inactiveBackground": "#27272b",
+		"tab.unfocusedInactiveBackground": "#27272b",
 		"tab.inactiveForeground": "#a9a9a9",
 		"tab.unfocusedActiveForeground": "#ffffff",
 		"tab.unfocusedInactiveForeground": "#a9a9a9",
 		"tab.hoverBackground": "#007acc",
 		"tab.unfocusedHoverBackground": "#007acc",
 		"sideBySideEditor.verticalBorder": "#00bfff",
-		"editor.background": "#18181b",
+		"editor.background": "#27272b",
 		"editor.foreground": "#d4d4d4",
 		"editorLineNumber.foreground": "#82aaff",
 		"editorLineNumber.activeForeground": "#00bfff",
@@ -75,13 +79,35 @@
 		"editorLightBulb.foreground": "#00bfff",
 		"editorLightBulbAutoFix.foreground": "#00bfff",
 		"editorBracketMatch.border": "#00bfff",
-		"editorOverviewRuler.background": "#18181b",
+		"editorOverviewRuler.background": "#27272b",
 		"statusBar.background": "#007acc",
-		"titleBar.activeForeground": "#ffffff",
-		"titleBar.inactiveForeground": "#a9a9a9",
 		"welcomePage.progress.background": "#007acc",
 		"welcomePage.progress.foreground": "#00bfff",
-		"welcomePage.tileBackground": "#18181b"
+		"welcomePage.tileBackground": "#27272b",
+		"gitDecoration.addedResourceForeground": "#50FA7B",
+		"gitDecoration.modifiedResourceForeground": "#FFB86C",
+		"gitDecoration.deletedResourceForeground": "#FF5555",
+		"diffEditor.insertedTextBackground": "#50FA7B22",
+		"diffEditor.removedTextBackground": "#FF555522",
+		"terminal.background": "#27272b",
+		"terminal.foreground": "#E6EDF3",
+		"terminalCursor.foreground": "#68A0FB",
+		"terminal.ansiBlack": "#1A1D23",
+		"terminal.ansiRed": "#F87171",
+		"terminal.ansiGreen": "#22C55E",
+		"terminal.ansiYellow": "#FACC15",
+		"terminal.ansiBlue": "#68A0FB",
+		"terminal.ansiMagenta": "#A78BFA",
+		"terminal.ansiCyan": "#8BE9FD",
+		"terminal.ansiWhite": "#E6EDF3",
+		"terminal.ansiBrightBlack": "#4B5563",
+		"terminal.ansiBrightRed": "#FB7185",
+		"terminal.ansiBrightGreen": "#4ADE80",
+		"terminal.ansiBrightYellow": "#FDE047",
+		"terminal.ansiBrightBlue": "#93C5FD",
+		"terminal.ansiBrightMagenta": "#C4B5FD",
+		"terminal.ansiBrightCyan": "#A5F3FC",
+		"terminal.ansiBrightWhite": "#FFFFFF"
 	},
 	"tokenColors": [
 		{
@@ -181,28 +207,25 @@
 				"foreground": "#b443ff"
 			}
 		},
-		{
-			"name": "useState",
-			"scope": [
-				"variable.other.constant.tsx"
-			],
+{
+			"name": "React Hooks",
+			"scope": "entity.name.function.tsx",
 			"settings": {
-				"foreground": "#bd93f9", 
-				"fontStyle": "italic" 
+				"fontStyle": "italic"
 			}
 		},
-		{
-			"name": "Function, Special Method",
-			"scope": [
-				"entity.name.function",
-				"meta.function-call",
-				"variable.function",
-				"keyword.other.special-method"
-			],
-			"settings": {
-				"foreground": "#68a0fb"
-			}
-		},
+		// {
+		// 	"name": "Function, Special Method",
+		// 	"scope": [
+		// 		"entity.name.function",
+		// 		"meta.function-call",
+		// 		"variable.function",
+		// 		"keyword.other.special-method"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#68a0fb"
+		// 	}
+		// },
 		{
 			"name": "Block Level Variables",
 			"scope": [
@@ -743,5 +766,44 @@
 				"foreground": "#EEFFFF"
 			}
 		}
-	]
+	],
+	"semanticTokenColors": {
+  "function": {
+    "foreground": "#68A0FB"
+  },
+  "function.readonly.local": {
+    "foreground": "#68A0FB"
+  },
+  "type": {
+    "foreground": "#8BE9FD"
+  },
+  "interface": {
+    "foreground": "#8BE9FD"
+  },
+  "class": {
+    "foreground": "#8BE9FD"
+  },
+  "enum": {
+    "foreground": "#8BE9FD"
+  },
+  "typeParameter": {
+    "foreground": "#8BE9FD"
+  },
+  "namespace": {
+    "foreground": "#8BE9FD"
+  },
+  "variable.readonly.local": {
+    "foreground": "#BD93F9",
+    "fontStyle": "italic"
+  },
+  "property": {
+    "foreground": "#FFFFFF"
+  },
+  "parameter": {
+    "foreground": "#FFB86C"
+  },
+  "enumMember": {
+    "foreground": "#FF79C6"
+  }
+}
 }
