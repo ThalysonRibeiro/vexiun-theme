@@ -20,7 +20,7 @@ git commit -m "feat: Add a new feature"
 When you are ready to release a new version, perform these preparation steps on the `develop` branch.
 
 1.  **Update Version Number:**
-    Open `package.json` and increment the `version` field (e.g., from `"0.2.5"` to `"0.2.6"`).
+    Open `package.json` and increment the `version` field (e.g., from `"0.2.6"` to `"0.3.0"`).
 
 2.  **Update Changelog:**
     Open `CHANGELOG.md` and add a new entry for the version you are about to release. Follow the existing format.
@@ -30,7 +30,7 @@ When you are ready to release a new version, perform these preparation steps on 
 
     ```bash
     git add package.json CHANGELOG.md
-    git commit -m "chore: Prepare release v0.2.6"
+    git commit -m "chore: Prepare release v0.3.0"
     ```
 
 4.  **Push to `develop`:**
@@ -73,11 +73,11 @@ This is the final step that triggers the automated publishing pipeline.
     Create a new Git tag that **matches the version in `package.json`**. Pushing this tag to GitHub will automatically start the release workflow.
 
     ```bash
-    # Create the tag (e.g., v0.2.6)
-    git tag v0.2.6
+    # Create the tag (e.g., v0.3.0)
+    git tag v0.3.0
 
     # Push the tag to GitHub
-    git push origin v0.2.6
+    git push origin v0.3.0
     ```
 
 ## Step 5: Verify the Release

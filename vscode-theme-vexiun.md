@@ -24,14 +24,6 @@ Paleta e temas de cores do VS Code baseados nas cores do projeto.
 
 ![Vexiun Strawberry Theme](./public/strawberry.png)
 
-### Vexiun Mono Dark
-
-![Vexiun Mono Dark Theme](./public/black-end-white.png)
-
-### Vexiun Mono Light
-
-![Vexiun Mono Light Theme](./public/white-and-black.png)
-
 ### Vexiun Dark
 
 ![Vexiun Dark Theme](./public/vexiun-dark.png)
@@ -114,6 +106,7 @@ Paleta e temas de cores do VS Code baseados nas cores do projeto.
 {
   "name": "Vexiun Dark",
   "type": "dark",
+  "semanticHighlighting": true,
   "colors": {
     "editor.background": "#0F172A",
     "editor.foreground": "#ffffff",
@@ -163,6 +156,11 @@ Paleta e temas de cores do VS Code baseados nas cores do projeto.
     "list.focusForeground": "#F8FAFC",
     "progressBar.background": "#8B5CF6",
     "notificationCenterHeader.background": "#111827",
+    "gitDecoration.addedResourceForeground": "#50FA7B",
+    "gitDecoration.modifiedResourceForeground": "#FFB86C",
+    "gitDecoration.deletedResourceForeground": "#FF5555",
+    "diffEditor.insertedTextBackground": "#50FA7B22",
+    "diffEditor.removedTextBackground": "#FF555522",
     "terminal.foreground": "#E5E7EB",
     "terminalCursor.foreground": "#8B5CF6",
     "terminal.ansiBlack": "#111827",
@@ -218,8 +216,51 @@ Paleta e temas de cores do VS Code baseados nas cores do projeto.
     {
       "scope": ["invalid", "invalid.deprecated"],
       "settings": { "foreground": "#FFFFFF", "background": "#DC2626" }
+    },
+    {
+      "scope": "entity.name.function.tsx",
+      "settings": { "fontStyle": "italic" }
     }
-  ]
+  ],
+  "semanticTokenColors": {
+    "function": {
+      "foreground": "#60A5FA"
+    },
+    "function.readonly.local": {
+      "foreground": "#60A5FA"
+    },
+    "type": {
+      "foreground": "#F59E0B"
+    },
+    "interface": {
+      "foreground": "#F59E0B"
+    },
+    "class": {
+      "foreground": "#F59E0B"
+    },
+    "enum": {
+      "foreground": "#F59E0B"
+    },
+    "typeParameter": {
+      "foreground": "#F59E0B"
+    },
+    "namespace": {
+      "foreground": "#F59E0B"
+    },
+    "parameter": {
+      "foreground": "#F59E0B"
+    },
+    "variable.readonly.local": {
+      "foreground": "#FFFFFF",
+      "fontStyle": "italic"
+    },
+    "property": {
+      "foreground": "#FFFFFF"
+    },
+    "enumMember": {
+      "foreground": "#F472B6"
+    }
+  }
 }
 ```
 
@@ -229,6 +270,7 @@ Paleta e temas de cores do VS Code baseados nas cores do projeto.
 {
   "name": "Vexiun Light",
   "type": "light",
+  "semanticHighlighting": true,
   "colors": {
     "editor.background": "#FFFFFF",
     "editor.foreground": "#0F172A",
@@ -278,6 +320,11 @@ Paleta e temas de cores do VS Code baseados nas cores do projeto.
     "list.focusForeground": "#0F172A",
     "progressBar.background": "#4338CA",
     "notificationCenterHeader.background": "#F8FAFC",
+    "gitDecoration.addedResourceForeground": "#50FA7B",
+    "gitDecoration.modifiedResourceForeground": "#FFB86C",
+    "gitDecoration.deletedResourceForeground": "#FF5555",
+    "diffEditor.insertedTextBackground": "#50FA7B22",
+    "diffEditor.removedTextBackground": "#FF555522",
     "terminal.foreground": "#0F172A",
     "terminalCursor.foreground": "#4338CA",
     "terminal.ansiBlack": "#111827",
@@ -333,8 +380,51 @@ Paleta e temas de cores do VS Code baseados nas cores do projeto.
     {
       "scope": ["invalid", "invalid.deprecated"],
       "settings": { "foreground": "#FFFFFF", "background": "#DC2626" }
+    },
+    {
+      "scope": "entity.name.function.tsx",
+      "settings": { "fontStyle": "italic" }
     }
-  ]
+  ],
+  "semanticTokenColors": {
+    "function": {
+      "foreground": "#2563EB"
+    },
+    "function.readonly.local": {
+      "foreground": "#2563EB"
+    },
+    "type": {
+      "foreground": "#B45309"
+    },
+    "interface": {
+      "foreground": "#B45309"
+    },
+    "class": {
+      "foreground": "#B45309"
+    },
+    "enum": {
+      "foreground": "#B45309"
+    },
+    "typeParameter": {
+      "foreground": "#B45309"
+    },
+    "namespace": {
+      "foreground": "#B45309"
+    },
+    "parameter": {
+      "foreground": "#DB2777"
+    },
+    "variable.readonly.local": {
+      "foreground": "#0F172A",
+      "fontStyle": "italic"
+    },
+    "property": {
+      "foreground": "#0F172A"
+    },
+    "enumMember": {
+      "foreground": "#DB2777"
+    }
+  }
 }
 ```
 
